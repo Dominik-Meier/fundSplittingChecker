@@ -6,7 +6,7 @@
 	<artifactId>fundSplittingChecker</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>fundSplittingChecker</name>
-	<description>Checks if all funds sum up to 100%</description>
+	<description>A console application for ZKB to check if the positions of a fund add up to 100%</description>
 
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
