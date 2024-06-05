@@ -1,6 +1,4 @@
-package ch.zkb.assignment.fundSplittingChecker;
-
-import java.util.List;
+package ch.zkb.assignment.fundSplittingChecker.model;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -16,15 +14,15 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "fund", propOrder = {
-    "isin",
-    "positions"
+@XmlType(name = "position", propOrder = {
+    "id",
+    "percentage"
 })
-public class Fund {
+public class Position {
 
-    @XmlAttribute(name = "isin", required = true)
-    private String isin;
+    @XmlAttribute(name = "id", required = true)
+    private String id;
 
-    @XmlElement(name = "position", required = true)
-    private List<Position> positions;
+    @XmlElement(name = "percentage", required = true)
+    private double percentage;
 }

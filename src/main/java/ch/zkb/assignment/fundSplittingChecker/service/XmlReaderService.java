@@ -1,4 +1,4 @@
-package ch.zkb.assignment.fundSplittingChecker;
+package ch.zkb.assignment.fundSplittingChecker.service;
 
 import java.io.File;
 
@@ -7,6 +7,8 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 
 import org.springframework.stereotype.Service;
+
+import ch.zkb.assignment.fundSplittingChecker.model.Funds;
 
 @Service
 public class XmlReaderService {

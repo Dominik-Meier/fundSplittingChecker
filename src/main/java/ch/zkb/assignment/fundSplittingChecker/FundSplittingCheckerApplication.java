@@ -8,6 +8,10 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import ch.zkb.assignment.fundSplittingChecker.model.Funds;
+import ch.zkb.assignment.fundSplittingChecker.service.FundsCheckerService;
+import ch.zkb.assignment.fundSplittingChecker.service.XmlReaderService;
+
 @SpringBootApplication
 public class FundSplittingCheckerApplication implements CommandLineRunner {
 

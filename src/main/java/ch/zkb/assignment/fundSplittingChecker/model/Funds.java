@@ -1,4 +1,4 @@
-package ch.zkb.assignment.fundSplittingChecker;
+package ch.zkb.assignment.fundSplittingChecker.model;
 
 import java.util.List;
 

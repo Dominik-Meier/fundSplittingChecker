@@ -2,6 +2,10 @@ package ch.zkb.assignment.fundSplittingChecker;
 
 import java.util.List;
 
+import ch.zkb.assignment.fundSplittingChecker.model.Fund;
+import ch.zkb.assignment.fundSplittingChecker.model.Funds;
+import ch.zkb.assignment.fundSplittingChecker.model.Position;
+
 public class FundsMother {
     public static final Position p1 = new Position("1", 0.5d);
     public static final Position p2 = new Position("2", 0.5d);

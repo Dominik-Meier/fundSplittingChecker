@@ -1,8 +1,10 @@
-package ch.zkb.assignment.fundSplittingChecker;
+package ch.zkb.assignment.fundSplittingChecker.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
+
+import ch.zkb.assignment.fundSplittingChecker.model.Funds;
 
 @Service
 public class FundsCheckerService {

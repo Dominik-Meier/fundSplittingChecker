@@ -4,6 +4,8 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import ch.zkb.assignment.fundSplittingChecker.service.FundsCheckerService;
+
 public class FundsCheckerServiceTest {
 
     FundsCheckerService fundsCheckerService;
